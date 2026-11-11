@@ -9,7 +9,7 @@ url="https://github.com/temboselous/rm-link-from-selection"
 arch="noarch"
 license="GPL-3.0-only"
 depends="qt-resource-rebuilder remarkable-os>=3.29 remarkable-os<3.30 !link-from-selection !convert-to-text-remover"
-_commit="FILL-IN-AFTER-PUSH"
+_commit="e35e7cc6f0d414c65487accf9cc987136777d75e"
 readmeurl="https://raw.githubusercontent.com/$upstream_author/rm-link-from-selection/$_commit/README.md"
 source="
 https://raw.githubusercontent.com/$upstream_author/rm-link-from-selection/$_commit/src/linkFromSelection.qmd
@@ -27,6 +27,6 @@ package() {
 		"$pkgdir"/home/root/.vellum/licenses/$pkgname/SOURCES
 }
 sha512sums="
-FILL-IN  linkFromSelection.qmd
-FILL-IN  LICENSE
+a2e00d4ee3167c743497346eeba77e2a6131775b87cc8ba3862d8587d341e5dc1a44d80736acd571d3f7a47d1f85dffcddec0ae17b920659e51d39e65237ac8d  linkFromSelection.qmd
+6dbfcd77cdf7d1b8bede7d6c7b2d61943033da1bdd675a419af2f183798f7ece774fa9ae0b189d92200065704be2ba11fa0966e3f1d6edf9ffbb1b61cf60c73e  LICENSE
 "

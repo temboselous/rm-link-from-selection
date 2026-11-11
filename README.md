@@ -20,6 +20,8 @@ tools/install.sh
 
 The script first checks the mod against the tablet's own name table and stops if anything is missing. It then copies the file over and restarts the tablet's interface. If the interface does not stay up, the script removes the mod again and prints the relevant part of the log.
 
+To remove it again, run `tools/uninstall.sh`. Links you have made stay stored inside their documents and come back if you reinstall.
+
 ## After a firmware update
 
 The mod is a patch applied to reMarkable's own screens, so a firmware update can break it. There are two ways it breaks.
